@@ -60,52 +60,52 @@ function showSkillDescription(skillName) {
     const skillData = {
         'Python': {
             description: 'The Swiss Army knife of programming—great for automation, AI, web development, and everything in between.',
-            image: '/assets/python.png',
+            image: 'python.png',
             since: 'Since 2019'
         },
         'C': {
             description: 'The OG of programming languages—fast, powerful, and the reason your OS even works.',
-            image: '/assets/c.png',
+            image: 'c.png',
             since: 'Since 2024'
         },
         'C++': {
             description: 'C’s overachieving sibling—brings speed, object-oriented magic, and game development potential.',
-            image: '/assets/cpp.png',
+            image: 'cpp.png',
             since: 'Since 2024'
         },
         'JavaScript': {
             description: 'The heartbeat of the web—makes pages interactive, dynamic, and sometimes a little chaotic.',
-            image: '/assets/js.png',
+            image: 'js.png',
             since: 'Since 2024'
         },
         'HTML': {
             description: 'The skeleton of the internet—if a website was a house, HTML would be the bricks and walls.',
-            image: '/assets/html.png',
+            image: 'html.png',
             since: 'Since 2023'
         },
         'CSS': {
             description: 'Because plain HTML is boring—CSS brings the style, animations, and that pixel-perfect magic.',
-            image: '/assets/css.png',
+            image: 'css.png',
             since: 'Since 2023'
         },
         'MySQL': {
             description: 'The brain of your applications—because data needs to live somewhere safe and organized.',
-            image: '/assets/mysql.png',
+            image: 'mysql.png',
             since: 'Since 2022'
         },
         'React': {
             description: 'The wizard of front-end—builds slick, dynamic UIs with reusable components.',
-            image: '/assets/react.png',
+            image: 'react.png',
             since: 'Since 2025'
         },
         'VSCode': {
             description: 'The ultimate coding sidekick—lightweight, customizable, and packed with powerful features.',
-            image: '/assets/vscode.png',
+            image: 'vscode.png',
             since: 'Since 2020'
         },
         'GitHub': {
             description: 'The social network for code—host projects, collaborate with others, and contribute to open source.',
-            image: '/assets/git.png',
+            image: 'git.png',
             since: 'Since 2025'
         }
     };
@@ -135,7 +135,7 @@ const projects = [
         langs: ["JavaScript", "HTML", "CSS"],
         link: "https://github.com/Jasnoor-Kaur-2025/swift-tunes",
         status: "Completed",
-        image: "assets/swifttunes.png"
+        image: "swifttunes.png"
     },
     {
         title: "Currency Converter",
@@ -143,7 +143,7 @@ const projects = [
         langs: ["JavaScript", "HTML", "CSS"],
         link: "https://github.com/Jasnoor-Kaur-2025/currency-converter",
         status: "Completed",
-        image: "assets/currency.png"
+        image: "currency.png"
     },
     {
         title: "Quiz App",
@@ -151,7 +151,7 @@ const projects = [
         langs: ["JavaScript", "HTML", "CSS"],
         link: "https://github.com/Jasnoor-Kaur-2025/quiz-app",
         status: "Completed",
-        image: "assets/quiz.png"
+        image: "quiz.png"
     },
     {
         title: "Day Night Toggle",
@@ -159,7 +159,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "https://github.com/Jasnoor-Kaur-2025/day-night-toggle",
         status: "Completed",
-        image: "assets/toggle.png"
+        image: "toggle.png"
     },
     {
         title: "Text Editor",
@@ -167,7 +167,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "https://github.com/Jasnoor-Kaur-2025/text-editor",
         status: "Completed",
-        image: "assets/texted.png"
+        image: "texted.png"
     },
     {
         title: "Match Master: A Card Game",
@@ -175,7 +175,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "https://github.com/Jasnoor-Kaur-2025/card-game",
         status: "Completed",
-        image: "assets/cards.png"
+        image: "cards.png"
     },
     {
         title: "My Tasks: A To-Do Application",
@@ -183,7 +183,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "https://github.com/Jasnoor-Kaur-2025/To-Do-Application",
         status: "Completed",
-        image: "assets/todo.png"
+        image: "todo.png"
     },
     {
         title: "Sample E-commerce Website: Bizarre Bazaar",
@@ -191,7 +191,7 @@ const projects = [
         langs: ["JavaScript", "HTML", "CSS", "EmailJS"],
         link: "https://github.com/Jasnoor-Kaur-2025/E-Commerce-Application-Basic",
         status: "Completed",
-        image: "assets/ecommerce.png"
+        image: "ecommerce.png"
     },
     {
         title: "Algorithm Simulator",
@@ -199,7 +199,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "#",
         status: "Under Construction",
-        image: "assets/algoSim.png"
+        image: "algoSim.png"
     },
     {
         title: "Shadows of Hoptown: A Mystery Game",
@@ -207,7 +207,7 @@ const projects = [
         langs: ["React", "CSS", "JavaScript"],
         link: "#",
         status: "Under Construction",
-        image: "assets/mystery.png"
+        image: "mystery.png"
     }
 ];
 
