@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeyIt'sMe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="homeContent">
+            <div class="topBar">
+                <div class="dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="top-bar-text">
+                    "Talk is cheap. Show me the code." - Linus Torvalds
+                </div>
+            </div>
+            <div class="navBar">
+                <a href="#abouts">About.py</a>
+                <a href="#skills">Skills.js</a>
+                <a href="#projects">Projects.c</a>
+                <a href="#contacts">Contact.cpp</a>
+            </div>
+            <div class="content">
+                <div class="langs">
+                    <div class="lang" onclick="changeText('Python')">
+                        <img src="/assets/python.png">
+                        <p>Python</p>
+                    </div>
+                    <div class="lang" onclick="changeText('Java')">
+                        <img src="/assets/java.png">
+                        <p>Java</p>
+                    </div>
+                    <div class="lang" onclick="changeText('C')">
+                        <img src="/assets/c.png">
+                        <p>C</p>
+                    </div>
+                    <div class="lang" onclick="changeText('C++')">
+                        <img src="/assets/cpp.png">
+                        <p>C++</p>
+                    </div>
+                    <div class="lang" onclick="changeText('JavaScript')">
+                        <img src="/assets/js.png">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="lang" onclick="changeText('php')">
+                        <img src="/assets/php.png">
+                        <p>PHP</p>
+                    </div>
+                </div>
+                <div class="output" id="output">
+                    <div class="code-text">
+                        <p>print("Hello, I am Jasnoor Kaur")</p>
+                    </div>
+                    <div class="main-text">
+                        <div class="terminal">
+                            <<< Terminal>>>
+                        </div>
+                        <div class="Text">
+                            <p>Hello, I am Jasnoor Kaur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="abouts">
+        <div class="aboutContent">
+            <div class="aboutTop">
+                <div class="aboutMe">
+                    <div class="aboutHeading">ABOUT ME</div>
+                    <div class="aboutText">
+                        <p>Hi, I'm Jasnoor Kaur, an aspiring software developer with a passion for building efficient,
+                            scalable, and creative solutions. I love exploring different programming languages and
+                            problem-solving through code. My interests lie in software development, algorithms, and
+                            web development. Whether it's optimizing logic, debugging complex issues,
+                            or learning new technologies, I'm always up for a challenge. With a strong foundation in
+                            Python, Java, C, C++, and JavaScript, I'm eager to contribute to innovative projects and
+                            grow as a developer.</p>
+                        <h5> Let’s build something amazing together!</h5>
+                    </div>
+
+                </div>
+                <div class="aboutImage"><img src="assets/image.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <div class="skillsContent">
+            <div class="skillsLeft">
+                <h2>SKILLS</h2>
+                <p>Languages | Tools | Frameworks</p>
+                <h5>Hover over or click the icons to activate the skill.</h5s>
+            </div>
+            <div class="skillsRight">
+                <div class="RIGHTposSkills">
+                    <div class="skill" data-skill="Python"><img src="assets/python.png" alt="Python"></div>
+                    <div class="skill" data-skill="C"><img src="assets/c.png" alt="C"></div>
+                    <div class="skill" data-skill="C++"><img src="assets/cpp.png" alt="C++"></div>
+                    <div class="skill" data-skill="JavaScript"><img src="assets/js.png" alt="JavaScript"></div>
+                    <div class="skill" data-skill="HTML"><img src="assets/html.png" alt="HTML"></div>
+                </div>
+                <div class="cardPOS">
+                    <div class="skillCard">
+                    </div>
+                </div>
+                <div class="LEFTposSkills">
+                    <div class="skill" data-skill="CSS"><img src="assets/css.png" alt="CSS"></div>
+                    <div class="skill" data-skill="MySQL"><img src="assets/mysql.png" alt="MySQL"></div>
+                    <div class="skill" data-skill="React"><img src="assets/react.png" alt="React"></div>
+                    <div class="skill" data-skill="VSCode"><img src="assets/vscode.png" alt="VSCode"></div>
+                    <div class="skill" data-skill="GitHub"><img src="assets/git.png" alt="Git"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;
+          </button>
+          <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;
+          </button>
+          <div class="carousel"></div>
+    </div>
+    
+    <div class="contact" id="contacts">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>Let's build something together!</p>
+    
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/Jasnoor-Kaur-2025">
+                    <img src="assets/git.png" alt="GitHub">
+                </a>
+                <a href="https://x.com/JasnoorKaurGre1">
+                    <img src="assets/x.png" alt="Twitter">
+                </a>
+            </div>
+    
+            <form id="contact-form">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="text">Message</label>
+                    <textarea id="text" name="text" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-status"></p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .navBar a {
+        width: 20%;
+        font-size: 10px;
+    }
+
+    .langs {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+    .lang {
+        width: 12%;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        height: 17.4%;
+        overflow-y: hidden;
+        border-top: 1px solid grey;
+        border-right: 1px solid grey;
+    }
+
+    .lang p{
+        display: none;
+    }
+
+    .output{
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .code-text{
+        height: 20%;
+        display: flex;
+        font-size: 21px;
+        flex-wrap: wrap;
+        word-wrap: break-word; /* Ensures long words break and wrap */
+    white-space: normal;
+    overflow: hidden;
+
+    }
+
+    .Text p{
+        text-align: center;
+        font-size: 19vw;
+        overflow-y: hidden;
+
+    }
+
+    .topBar{
+        height: 7%;
+
+    }
+    .top-bar-text {
+        font-size: 12px;
+        margin-top: 17px;
+        overflow: hidden;
+    }
+
+    .homeContent{
+        overflow-y: hidden;
+
+    }
+
+    .aboutImage{
+        display: none;
+    }
+
+    .aboutImage img{
+        display: none;
+    }
+
+    .aboutContent{
+        overflow: hidden;
+
+    }
+
+    .aboutTop{
+        overflow: hidden;
+
+    }
+    .aboutMe{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .aboutHeading {
+        height: 10%;
+        font-family: "JetBrains Mono", serif;
+        font-size: 50px;
+        color: white;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-bottom: 4px white dashed;
+        overflow: hidden;
+    }
+    .aboutText{
+        overflow: hidden;
+    }
+    .aboutText p {
+        color: white;
+        font-size: 4vw;
+        margin: 5px;
+        padding-left: 5px;
+        border-left: 10px rgb(159, 177, 228) solid;
+        font-family: "Quicksand", sans-serif;
+        overflow: hidden;
+        height: 83%;
+    }
+
+    .aboutText h5 {
+        color: white;
+        margin-top: 20px;
+        font-size: 4.5vw;
+        height: 12%;
+        font-family: "Atkinson Hyperlegible Mono", serif;
+        overflow: hidden;
+    }
+    
+    .skillsContent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skillsLeft, .skillsRight{
+        width: 100%;
+    }
+
+    .skillsRight{
+        height: 80%;
+    }
+    .skillsLeft h2 {
+        font-family: "JetBrains Mono", serif;
+        font-size: 45px;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 0;
+        padding: 5px;
+        border-bottom: 4px white dashed;
+        overflow: hidden;
+    }
+    
+    .skillsLeft p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        border-left: 10px rgb(159, 177, 228) solid;
+        padding-left: 5px;
+    }
+    
+    .skillsLeft h5 {
+        display: none;
+    }
+
+    .skillsRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .skill {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .skill img {
+        width: 40px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .cardPOS {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skillCard {
+        transform: scale(0) rotateY(540deg);
+        width: 200px;
+        height: 400px;
+        background: #1e1e1e;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        transition: transform 0.6s ease-in-out, opacity 0.3s ease-in-out;
+        opacity: 0;
+        font-family: "JetBrains Mono", monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transform-origin: center;
+    }
+    
+    .contact-container {
+        max-width: 300px;
+        height: 85%;
+        margin: 7% auto;
+        padding: 30px;
+        background: rgba(20, 20, 20, 0.9); /* Dark semi-transparent background */
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(159, 177, 228, 0.3);
+        text-align: center;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    
+    /* Input Groups */
+    .input-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    /* Labels */
+    .input-group label {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 5px;
+        color: #ccc;
+    }
+    
+    /* Input Fields */
+    .input-group input,
+    .input-group textarea {
+        width: 90%;
+        padding: 12px;
+        font-size: 1rem;
+        color: #ffffff;
+        background: rgba(50, 50, 50, 0.8);
+        border: 1px solid #9fb1e4;
+        border-radius: 5px;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    /* Input Hover & Focus */
+    .input-group input:focus,
+    .input-group textarea:focus {
+        border-color: #ffffff;
+        background: rgba(70, 70, 70, 0.9);
+    }
+    
+    /* Textarea */
+    .input-group textarea {
+        height:28vh;
+        resize: none;
+    }
+
+
+/* Top section (Image + Title + Languages) */
+.projectTop {
+    flex-direction: column !important;
+    width: 100%;
+    height: 45% !important;
+}
+
+.projectContent{
+    height: 98% !important;
+}
+.projectTop img {
+    width: 90%;
+}
+
+.ProjectTopCont{
+    width: 100%;
+    display: flex;
+
+}
+.projectTop h3 {
+    font-size: 1.2rem !important;
+}
+
+.projectTop p {
+    font-size: 1rem;
+    overflow:  hidden !important;
+
+}
+
+/* Bottom section (Description + Status + Link) */
+.projectBottom {
+    height: 55% !important;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.projectBottom h5 {
+    width: 100% !important;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* Left-bottom (Status & Link) */
+.BottomLeft {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.BottomLeft h4 {
+    font-size: 0.8rem;
+    color: #9fb1e4;
+    font-weight: bold;
+}
+
+.BottomLeft a {
+    background: rgba(159, 177, 228, 0.3);
+    color: #9fb1e4;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.98rem;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.BottomLeft a:hover {
+    background: #9fb1e4;
+    color: #121212;
+}
+}
+
