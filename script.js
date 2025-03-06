@@ -60,52 +60,52 @@ function showSkillDescription(skillName) {
     const skillData = {
         'Python': {
             description: 'The Swiss Army knife of programming—great for automation, AI, web development, and everything in between.',
-            image: 'python.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/python.png',
             since: 'Since 2019'
         },
         'C': {
             description: 'The OG of programming languages—fast, powerful, and the reason your OS even works.',
-            image: 'c.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/c.png',
             since: 'Since 2024'
         },
         'C++': {
             description: 'C’s overachieving sibling—brings speed, object-oriented magic, and game development potential.',
-            image: 'cpp.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/cpp.png',
             since: 'Since 2024'
         },
         'JavaScript': {
             description: 'The heartbeat of the web—makes pages interactive, dynamic, and sometimes a little chaotic.',
-            image: 'js.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/js.png',
             since: 'Since 2024'
         },
         'HTML': {
             description: 'The skeleton of the internet—if a website was a house, HTML would be the bricks and walls.',
-            image: 'html.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/html.png',
             since: 'Since 2023'
         },
         'CSS': {
             description: 'Because plain HTML is boring—CSS brings the style, animations, and that pixel-perfect magic.',
-            image: 'css.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/css.png',
             since: 'Since 2023'
         },
         'MySQL': {
             description: 'The brain of your applications—because data needs to live somewhere safe and organized.',
-            image: 'mysql.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/mysql.png',
             since: 'Since 2022'
         },
         'React': {
             description: 'The wizard of front-end—builds slick, dynamic UIs with reusable components.',
-            image: 'react.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/react.png',
             since: 'Since 2025'
         },
         'VSCode': {
             description: 'The ultimate coding sidekick—lightweight, customizable, and packed with powerful features.',
-            image: 'vscode.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/vscode.png',
             since: 'Since 2020'
         },
         'GitHub': {
             description: 'The social network for code—host projects, collaborate with others, and contribute to open source.',
-            image: 'git.png',
+            image: 'https://raw.githubusercontent.com/jasnoor-kaur-2025/personal-website/main/git.png',
             since: 'Since 2025'
         }
     };
